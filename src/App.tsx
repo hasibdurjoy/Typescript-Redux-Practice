@@ -3,6 +3,7 @@ import Header from "./Components/Common/Header/Header";
 import Home from "./Pages/Home/Home";
 
 function App() {
+  const name = "";
   return (
     <div className="App">
       <Header />
