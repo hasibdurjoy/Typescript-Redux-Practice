@@ -1,7 +1,11 @@
+import Slider from "../../Components/Custom/Slider/Slider";
+import FlashSale from "../../Components/HomePageComponents/FlashSale/FlashSale";
+
 const Home = () => {
   return (
-    <div>
-      <h1>This is home page</h1>
+    <div className="container">
+      <Slider />
+      <FlashSale />
     </div>
   );
 };
